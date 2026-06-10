@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+nav a {
+    background-color: #4a86e8;
+    color: white;
+    padding: 10px 28px;
+    text-decoration: none;
+    border: 1px solid #2b65b8;
+    border-right: none;
+    font-size: 16px;
+}
+
+nav a:last-child {
+    border-right: 1px solid #2b65b8;
+}
+
+.caja-formulario {
+    background-color: #82e0f0;
+    border: 3px solid #0066cc;
+    border-radius: 12px;
+    padding: 25px 30px;
+    max-width: 620px;
+}
+
+
+/* Filas de datos */
+
+.fila {
+    display: flex;
+    align-items: center;
+    margin: 18px 0;
+    gap: 12px;
+}
+
+.fila label {
+    width: 70px;
+    font-weight: bold;
+    color: #002b5c;
+    font-size: 15px;
+}
+
+.fila input {
+    flex: 1;
+    padding: 6px 8px;
+    border: 1px solid #999;
+    font-size: 15px;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: 1 px solid #003388;
+    padding: 5px 18px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contenido {
+    font-size: 17px;
+    line-height: 1.7;
+}
